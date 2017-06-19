@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cat clicker</title>
+  </head>
+  <body>
+<h2 id="catName-h2"></h2>
+<ul id="catList-ul"></ul>
+<div id="counter-div"></div>
+<img id="cat-img" height="300px">
+<br>
+<button type="button" id="admin-btn">Admin</button>
+  <div id="admin-form"> 
+  <!--deliberately not using form tag to prevent submit button auto redirecting page-->
+    <label> Cat Name </label> <input id="catName-input">
+    <br><label> Image location </label> <input id="catImg-input">
+    <br><label> Click count </label> <input id="clickCount-input">
+    <br><button id="submit-btn"> Save </button>
+    <button id="cancel-btn"> Cancel </button> 
+  </div>
+<script src="js/app.js"></script>
+  </body>
+</html>
